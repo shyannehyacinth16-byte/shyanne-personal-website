@@ -1,0 +1,16 @@
+PERSONAL WEBSITE REFLECTION
+
+1. What did you learn from this activity?
+I learned how to build a personal website using HTML and CSS. I also learned how to create navigation links, add images and videos, make a table, and organize my files.
+
+2. What challenges did you face?
+One challenge was getting the different sections of the website to look the way I wanted. I also had to make sure the links, images and video worked correctly.
+
+3. How did you and your partner resolve challenges?
+My partner and I discussed problems we had and shared ideas about the HTML and CSS. We helped each other when something was not working.
+
+4. How did collaboration contribute to the project?
+Working with a partner made it easier to compare ideas and notice things that could be improved. We could also help each other when we got stuck.
+
+5. What would you improve if you had more time?
+If I had more time, I would add more pages and more interactive features. I would also add more of my own projects and continue improving the design.
