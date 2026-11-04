@@ -1,365 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="Shyanne Hyacinth's personal website and student portfolio.">
     <title>Shyanne Hyacinth | Personal Website</title>
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-    <header>
-        <a class="logo" href="#home">SH<span>.</span></a>
-
-        <nav>
+    <!-- Header contains the logo and main page navigation. -->
+    <header class="site-header">
+        <a class="logo" href="#home" aria-label="Shyanne Hyacinth home">SH<span>.</span></a>
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-
-        <a class="talk" href="#contact">LET'S TALK</a>
+        <a class="talk" href="#contact">LET'S TALK <span aria-hidden="true">↗</span></a>
     </header>
 
     <main>
-
+        <!-- Intro section introduces the website owner. -->
         <section id="home" class="hero">
-
-            <div>
-                <p class="eyebrow">COMPUTER SYSTEMS TECHNOLOGY • CST2</p>
-
-                <h1>
-                    SHYANNE<br>
-                    <span>HYACINTH</span>
-                </h1>
-
-                <p class="intro">
-                    A student building skills in technology, design and programming —
-                    one project at a time.
-                </p>
-
-                <a class="button" href="#portfolio">VIEW MY WORK ↗</a>
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> COMPUTER SYSTEMS TECHNOLOGY · CST2</p>
+                <h1>SHYANNE<br><span>HYACINTH</span></h1>
+                <p class="intro">A student building skills in technology, design and programming — one project at a time.</p>
+                <a class="button" href="#portfolio">EXPLORE MY WORK <span aria-hidden="true">↗</span></a>
+                <p class="hero-note">LEARNING BY DOING <span>—</span> TAMCC</p>
             </div>
-
-            <div class="hero-img">
-                <img
-                    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85"
-                    alt="Laptop used for computer work"
-                >
-                <b>01</b>
-            </div>
-
+            <figure class="hero-img">
+                <img src="images/tech-workspace.svg" alt="Illustration of a laptop, code and a plant on a desk">
+                <figcaption><span>FIG. 01</span> A work in progress, just like me.</figcaption>
+                <span class="image-index" aria-hidden="true">01</span>
+            </figure>
         </section>
 
-
-        <section id="about" class="section">
-
+        <!-- About section shares the owner's course and learning goals. -->
+        <section id="about" class="section about-section">
             <p class="label">01 / ABOUT</p>
-
-            <div class="two">
-
+            <div class="two-column">
                 <div>
                     <p class="eyebrow">A LITTLE ABOUT ME</p>
-
-                    <h2>
-                        Learning tech.<br>
-                        <em>Creating my own path.</em>
-                    </h2>
+                    <h2>Learning tech.<br><em>Creating my own path.</em></h2>
                 </div>
-
                 <div class="copy">
-
-                    <p>
-                        My name is Shyanne Hyacinth and I am a Computer Systems
-                        Technology student. I enjoy learning how websites, programs
-                        and computer systems work.
-                    </p>
-
-                    <p>
-                        I am building my skills in HTML, CSS, Python, databases and
-                        networking. I like working on projects where I can see an
-                        idea turn into something real.
-                    </p>
-
-                    <div class="tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>PYTHON</span>
-                        <span>DATABASES</span>
-                        <span>NETWORKING</span>
+                    <p>My name is Shyanne Hyacinth and I am a Computer Systems Technology student at T. A. Marryshow Community College.</p>
+                    <p>I enjoy learning how websites, programs and computer systems work. I am developing my skills in HTML, CSS, Python, databases and networking, and I like seeing an idea turn into a real project.</p>
+                    <div class="tags" aria-label="Areas I am learning">
+                        <span>HTML</span><span>CSS</span><span>PYTHON</span><span>DATABASES</span><span>NETWORKING</span>
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
+        <aside class="quote" aria-label="Personal motto">KEEP LEARNING. KEEP BUILDING. KEEP IMPROVING.</aside>
 
-        <div class="quote">
-            KEEP LEARNING. KEEP BUILDING. KEEP IMPROVING.
-        </div>
-
-
+        <!-- Portfolio cards describe student projects. -->
         <section id="portfolio" class="section dark">
-
             <p class="label">02 / PORTFOLIO</p>
-
-            <div class="heading">
-
-                <h2>
-                    Selected <em>Work</em>
-                </h2>
-
-                <p>
-                    Some projects and skills I have worked on as a student.
-                </p>
-
+            <div class="section-heading">
+                <h2>Selected <em>work</em></h2>
+                <p>Projects and practical activities I have worked on as a student.</p>
             </div>
-
-
             <div class="projects">
-
-                <article>
-
-                    <img
-                        src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=1200&q=85"
-                        alt="Website design on a computer screen"
-                    >
-
-                    <p>01 • HTML / CSS</p>
-
+                <article class="project-card project-feature">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=1200&q=85" alt="Website layout displayed on a computer screen" loading="lazy">
+                    <p class="project-type">01 · HTML / CSS</p>
                     <h3>CineVerse</h3>
-
-                    <span>
-                        A movie website built with HTML and CSS.
-                    </span>
-
+                    <p class="project-description">A movie website built with HTML and CSS, with pages for exploring movies.</p>
                 </article>
-
-
-                <article>
-
-                    <img
-                        src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=85"
-                        alt="Programming code on a screen"
-                    >
-
-                    <p>02 • PYTHON</p>
-
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=85" alt="Programming code on a computer screen" loading="lazy">
+                    <p class="project-type">02 · PYTHON</p>
                     <h3>Rock, Paper, Scissors</h3>
-
-                    <span>
-                        A beginner Python game using loops, functions and validation.
-                    </span>
-
+                    <p class="project-description">A beginner Python game using functions, loops and input validation.</p>
                 </article>
-
-
-                <article>
-
-                    <img
-                        src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=85"
-                        alt="Computer networking equipment"
-                    >
-
-                    <p>03 • NETWORKING</p>
-
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=85" alt="Computer networking equipment in a server rack" loading="lazy">
+                    <p class="project-type">03 · NETWORKING</p>
                     <h3>Network Labs</h3>
-
-                    <span>
-                        Hands-on work with Packet Tracer, Wireshark and network setup.
-                    </span>
-
+                    <p class="project-description">Practice with Packet Tracer, Wireshark, IP addresses and network setup.</p>
                 </article>
-
             </div>
-
         </section>
 
-
-        <section class="section">
-
+        <!-- Skills table uses proper table headings and rows. -->
+        <section id="skills" class="section skills-section">
             <p class="label">03 / SKILLS</p>
-
-            <div class="two">
-
+            <div class="two-column skills-layout">
                 <div>
-
-                    <h2>
-                        What I'm<br>
-                        <em>Learning</em>
-                    </h2>
-
-                    <p class="copy">
-                        A quick look at technologies I have been working with.
-                    </p>
-
+                    <h2>What I'm<br><em>learning</em></h2>
+                    <p class="copy">A quick look at the tools and topics I am currently practising.</p>
                 </div>
-
-
-                <table>
-
-                    <tr>
-                        <th>AREA</th>
-                        <th>TECHNOLOGY</th>
-                        <th>LEVEL</th>
-                    </tr>
-
-                    <tr>
-                        <td>Web</td>
-                        <td>HTML &amp; CSS</td>
-                        <td>Learning</td>
-                    </tr>
-
-                    <tr>
-                        <td>Programming</td>
-                        <td>Python</td>
-                        <td>Learning</td>
-                    </tr>
-
-                    <tr>
-                        <td>Database</td>
-                        <td>Microsoft Access / SQL</td>
-                        <td>Learning</td>
-                    </tr>
-
-                    <tr>
-                        <td>Networking</td>
-                        <td>Packet Tracer / Wireshark</td>
-                        <td>Learning</td>
-                    </tr>
-
-                </table>
-
+                <div class="table-wrap">
+                    <table>
+                        <thead><tr><th scope="col">AREA</th><th scope="col">TECHNOLOGY</th><th scope="col">LEVEL</th></tr></thead>
+                        <tbody>
+                            <tr><td>Web</td><td>HTML &amp; CSS</td><td><span class="level">Learning</span></td></tr>
+                            <tr><td>Programming</td><td>Python</td><td><span class="level">Learning</span></td></tr>
+                            <tr><td>Database</td><td>Access / SQL</td><td><span class="level">Learning</span></td></tr>
+                            <tr><td>Networking</td><td>Packet Tracer / Wireshark</td><td><span class="level">Learning</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-
         </section>
 
-
-        <section class="video dark">
-
+        <!-- An embedded online video provides an external learning resource. -->
+        <section class="video-section dark">
             <p class="label">04 / INSPIRATION</p>
-
-            <div class="heading">
-
-                <h2>
-                    Something I'm<br>
-                    <em>Learning From</em>
-                </h2>
-
-                <p>
-                    A helpful web-development video that supports my learning.
-                </p>
-
+            <div class="section-heading">
+                <h2>Something I'm<br><em>learning from</em></h2>
+                <p>A web-development video that supports my learning.</p>
             </div>
-
             <div class="video-box">
-
-                <iframe
-                    src="https://www.youtube.com/embed/UB1O30fR-EE"
-                    title="HTML tutorial video"
-                    allowfullscreen
-                ></iframe>
-
+                <iframe src="https://www.youtube-nocookie.com/embed/UB1O30fR-EE" title="HTML tutorial video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-
+            <p class="video-credit">Video hosted on YouTube.</p>
         </section>
 
-
-        <section id="contact" class="contact">
-
-            <div class="two">
-
+        <!-- Contact section includes a simple form layout. -->
+        <section id="contact" class="contact-section">
+            <div class="two-column">
                 <div>
-
                     <p class="label">05 / CONTACT</p>
-
-                    <h2>
-                        Let's make<br>
-                        <em>something.</em>
-                    </h2>
-
-                    <p>
-                        Thanks for visiting my website. If you want to get in touch,
-                        send me a message below.
-                    </p>
-
-                    <p class="contact-info">
-                        SHYANNE HYACINTH<br>
-                        CST2 • TAMCC
-                    </p>
-
+                    <h2>Let's make<br><em>something.</em></h2>
+                    <p class="contact-intro">Thanks for visiting my website. Use the form to write a message.</p>
+                    <p class="contact-info">SHYANNE HYACINTH<br>CST2 · TAMCC</p>
                 </div>
-
-
-                <form action="#" method="post">
-
+                <form action="mailto:shyannehyacinth16@tamcc.edu.gd" method="post" enctype="text/plain">
                     <label for="name">YOUR NAME</label>
-
-                    <input
-                        id="name"
-                        name="name"
-                        type="text"
-                        required
-                    >
-
-
+                    <input id="name" name="name" type="text" autocomplete="name" required>
                     <label for="email">YOUR EMAIL</label>
-
-                    <input
-                        id="email"
-                        name="email"
-                        type="email"
-                        required
-                    >
-
-
+                    <input id="email" name="email" type="email" autocomplete="email" required>
                     <label for="message">YOUR MESSAGE</label>
-
-                    <textarea
-                        id="message"
-                        name="message"
-                        rows="5"
-                        required
-                    ></textarea>
-
-
-                    <button type="submit">
-                        SEND MESSAGE ↗
-                    </button>
-
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">SEND MESSAGE <span aria-hidden="true">↗</span></button>
+                    <p class="form-note">This form opens your email app to send the message.</p>
                 </form>
-
             </div>
-
         </section>
-
     </main>
 
-
-    <footer>
-
-        <div class="logo">
-            SH<span>.</span>
-        </div>
-
-        <p>
-            © 2026 Shyanne Hyacinth • Personal Website
-        </p>
-
-        <a href="#home">
-            BACK TO TOP ↑
-        </a>
-
+    <!-- Footer contains copyright information and a back-to-top link. -->
+    <footer class="site-footer">
+        <a class="logo" href="#home">SH<span>.</span></a>
+        <p>© 2026 Shyanne Hyacinth · Personal Website</p>
+        <a href="#home">BACK TO TOP ↑</a>
     </footer>
-
 </body>
 </html>
-```
