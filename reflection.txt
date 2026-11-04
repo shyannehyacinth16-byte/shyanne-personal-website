@@ -1,16 +1,7 @@
-PERSONAL WEBSITE REFLECTION
+Reflection 
 
-1. What did you learn from this activity?
-I learned how to build a personal website using HTML and CSS. I also learned how to create navigation links, add images and videos, make a table, and organize my files.
+For this redesign, I improved the layout and appearance of my personal website and organized the files into folders. I used semantic HTML elements such as `header`, `nav`, `main`, `section`, `article` and `footer` to make the page easier to understand. I also updated the CSS with Grid, Flexbox and media queries so the content can adjust to different screen sizes. I added a local illustration, kept online project images, included alt text and added comments to explain important parts of the code.
 
-2. What challenges did you face?
-One challenge was getting the different sections of the website to look the way I wanted. I also had to make sure the links, images and video worked correctly.
+One challenge was making the page fit smaller screens without making the text or navigation difficult to use. I worked on this by stacking the main sections on mobile and adjusting the spacing and image heights. I also learned that a website needs more than a good desktop design; it should be checked on phones and tablets too.
 
-3. How did you and your partner resolve challenges?
-My partner and I discussed problems we had and shared ideas about the HTML and CSS. We helped each other when something was not working.
-
-4. How did collaboration contribute to the project?
-Working with a partner made it easier to compare ideas and notice things that could be improved. We could also help each other when we got stuck.
-
-5. What would you improve if you had more time?
-If I had more time, I would add more pages and more interactive features. I would also add more of my own projects and continue improving the design.
+The GitHub workflow is another important part of the assignment. A separate branch lets me work on redesign changes without changing the main version straight away. Commits should explain what changed, and a Pull Request gives me a chance to review the work before merging it into `main`. I still need to complete the branch and Pull Request steps in my GitHub repository and capture screenshots from the actual browser at mobile, tablet and desktop sizes.
