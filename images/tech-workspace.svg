@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+<title id="title">Technology workspace illustration</title>
+<desc id="desc">A laptop with code on the screen, a plant and a coffee cup on a desk.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24231f"/><stop offset="1" stop-color="#080808"/></linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#202d32"/><stop offset="1" stop-color="#101112"/></linearGradient>
+</defs>
+<rect width="900" height="700" fill="url(#bg)"/>
+<circle cx="730" cy="120" r="125" fill="#c8a76b" opacity=".08"/>
+<path d="M0 520 L900 440 L900 700 L0 700Z" fill="#171715"/>
+<rect x="190" y="140" width="510" height="330" rx="18" fill="#b4b0a6"/>
+<rect x="208" y="158" width="474" height="292" rx="7" fill="url(#screen)"/>
+<circle cx="445" cy="150" r="3" fill="#5c5b55"/>
+<g fill="#c8a76b" opacity=".95">
+ <rect x="245" y="205" width="100" height="9" rx="4"/><rect x="358" y="205" width="72" height="9" rx="4"/>
+ <rect x="245" y="235" width="58" height="8" rx="4"/><rect x="317" y="235" width="160" height="8" rx="4"/>
+ <rect x="275" y="265" width="120" height="8" rx="4"/><rect x="410" y="265" width="86" height="8" rx="4"/>
+ <rect x="245" y="295" width="165" height="8" rx="4"/><rect x="423" y="295" width="80" height="8" rx="4"/>
+ <rect x="275" y="325" width="75" height="8" rx="4"/><rect x="365" y="325" width="140" height="8" rx="4"/>
+</g>
+<g fill="#e9e4d9" opacity=".7">
+ <rect x="245" y="355" width="95" height="7" rx="3"/><rect x="352" y="355" width="145" height="7" rx="3"/>
+ <rect x="245" y="382" width="150" height="7" rx="3"/><rect x="405" y="382" width="72" height="7" rx="3"/>
+</g>
+<path d="M160 470 L730 470 L805 535 Q810 545 790 548 L110 548 Q90 545 100 535Z" fill="#d3cec2"/>
+<path d="M110 548 L790 548 L755 565 L145 565Z" fill="#8d887e"/>
+<g transform="translate(695 310)">
+ <path d="M0 150 Q-15 65 -65 10 Q-20 35 4 93 Q-5 15 30 -30 Q40 45 17 100 Q52 48 85 45 Q60 100 20 132Z" fill="#7c8a67"/>
+ <path d="M10 150 L10 205" stroke="#9b8a63" stroke-width="7"/>
+ <path d="M-18 160 L38 160 L30 215 L-10 215Z" fill="#c8a76b"/>
+</g>
+<g transform="translate(105 430)">
+ <path d="M0 20 Q0 0 20 0 L95 0 Q115 0 115 20 L108 95 Q105 110 90 110 L25 110 Q10 110 7 95Z" fill="#c8a76b"/>
+ <path d="M112 35 Q155 25 150 60 Q145 88 110 78" fill="none" stroke="#c8a76b" stroke-width="12"/>
+ <ellipse cx="57" cy="5" rx="45" ry="10" fill="#3a3022"/>
+</g>
+<text x="55" y="80" fill="#c8a76b" font-family="monospace" font-size="18" letter-spacing="4">STUDENT / PORTFOLIO</text>
+<text x="55" y="112" fill="#f4f1ea" font-family="Arial,sans-serif" font-size="30" font-weight="bold">LEARN. BUILD. REPEAT.</text>
+</svg>
