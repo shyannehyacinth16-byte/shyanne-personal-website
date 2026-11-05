@@ -24,7 +24,6 @@ This is my personal website for my Computer Systems Technology course (CST2) at 
 shyanne-personal-website/
 ├── index.html
 ├── README.md
-├── README.txt
 ├── reflection.txt
 ├── css/
 │   └── style.css
