@@ -21,15 +21,19 @@ This is my personal website for my Computer Systems Technology course (CST2) at 
 
 ## Folder structure
 ```text
-personal-website-redesign/
+shyanne-personal-website/
 ├── index.html
 ├── README.md
+├── README.txt
+├── reflection.txt
 ├── css/
 │   └── style.css
 ├── images/
 │   └── tech-workspace.svg
-└── assets/
-    └── icons/
+└── Screenshots/
+    ├── Desktop.png
+    ├── Tablet.png
+    └── phone.png
 ```
 
 ## How to view the website
@@ -47,3 +51,11 @@ CSS Grid and Flexbox arrange content on wider screens. Media queries at 900px an
 ## Visual redesign update
 
 The updated design uses a modern tech look: a deep navy background, purple and electric-blue highlights, glowing borders, glass-like navigation, larger typography, and project cards with hover effects. The content and required assignment sections are kept, but the visual styling is now noticeably different from the original gold-accent design.
+
+## Reflection
+
+For this redesign, I improved the layout and appearance of my personal website and organised the files into folders. I used semantic HTML elements such as header, nav, main, section, article and footer, moved my styling into an external stylesheet, and used Grid, Flexbox and media queries so the content adjusts to different screen sizes. I also added a local illustration, alt text and comments to explain the code.
+
+One challenge was making the page fit smaller screens without making the text or navigation hard to use, so I stacked the main sections on mobile and adjusted the spacing and image heights. Another challenge was Git: my redesign folder was not connected to my repository, so I cloned it and copied my files in. The W3C validator also found errors, which I fixed until the page passed.
+
+I learned that a branch lets me work on changes without touching the main version of my website. Small commits with clear messages show exactly what changed and why. A Pull Request let me review my work, check there were no conflicts, and merge it into main in a controlled way. I now feel more confident using Git and GitHub, and I know a website needs testing on phones and tablets, not just on desktop.
