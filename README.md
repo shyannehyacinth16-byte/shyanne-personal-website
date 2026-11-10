@@ -58,3 +58,20 @@ For this redesign, I improved the layout and appearance of my personal website a
 One challenge was making the page fit smaller screens without making the text or navigation hard to use, so I stacked the main sections on mobile and adjusted the spacing and image heights. Another challenge was Git: my redesign folder was not connected to my repository, so I cloned it and copied my files in. The W3C validator also found errors, which I fixed until the page passed.
 
 I learned that a branch lets me work on changes without touching the main version of my website. Small commits with clear messages show exactly what changed and why. A Pull Request let me review my work, check there were no conflicts, and merge it into main in a controlled way. I now feel more confident using Git and GitHub, and I know a website needs testing on phones and tablets, not just on desktop.
+
+## JavaScript Enhancements
+
+I added five interactive features using an external JavaScript file (`js/script.js`):
+
+1. **Dynamic Welcome Message**: Greets the user with "Good morning", "Good afternoon", or "Good evening" based on their system time.
+2. **Live Digital Clock**: Displays the current time in the hero section, updating every second.
+3. **Interactive FAQ Accordion**: Allows users to click questions to reveal answers, with smooth CSS transitions.
+4. **Character Counter**: Monitors the contact form textarea and displays the remaining characters in real time.
+5. **Back-to-Top Button**: A floating button that appears after scrolling 300px down the page and smoothly scrolls back to the top when clicked.
+
+### Reflection
+For this assignment, I added five JavaScript features to improve the interactivity of my website. I learned how to use DOM manipulation to dynamically change HTML content (like the clock and welcome message) and toggle CSS classes to create an interactive accordion. I also practiced using event listeners for user input (the character counter) and scroll events (the back-to-top button). 
+
+One challenge I encountered was debugging why my FAQ accordion wasn't opening. I learned how to use the browser's Developer Tools to inspect the elements and check for console errors. I discovered that duplicate HTML tags at the bottom of my page were preventing the JavaScript from running correctly. Fixing this taught me the importance of clean HTML structure. 
+
+Using Git and GitHub made the process safer. Creating a separate branch (`feature/javascript-enhancements`) meant I could experiment without breaking my live site. Committing and merging via a Pull Request helped me review my changes before finalizing them.
