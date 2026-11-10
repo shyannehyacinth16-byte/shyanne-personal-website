@@ -27,6 +27,9 @@
         <!-- Intro section introduces the website owner. -->
         <section id="home" class="hero">
             <div class="hero-copy">
+                <p class="hero-note" style="margin-bottom: 20px;">
+    It is currently <span id="live-clock" style="color: var(--blue); font-family: 'DM Mono', monospace; font-weight: bold;">00:00:00</span>
+</p>
                 <p class="eyebrow"><span class="status-dot"></span> COMPUTER SYSTEMS TECHNOLOGY · CST2</p>
                 <h1>SHYANNE<br><span>HYACINTH</span></h1>
                 <p class="intro">A student building skills in technology, design and programming — one project at a time.</p>
@@ -59,6 +62,31 @@
         </section>
 
         <aside class="quote" aria-label="Personal motto">KEEP LEARNING. KEEP BUILDING. KEEP IMPROVING.</aside>
+
+        <!-- Interactive FAQ Section -->
+<section id="faq" class="section about-section">
+    <p class="label">01.5 / FAQ</p>
+    <div class="two-column">
+        <div>
+            <h2>Frequently Asked<br><em>Questions</em></h2>
+            <p class="copy">A few things people usually ask me about my learning journey.</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">What is your main focus right now?</button>
+                <div class="faq-answer"><p>I am currently focusing on my CST2 coursework, particularly web development and networking labs.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">What technologies are you learning?</button>
+                <div class="faq-answer"><p>HTML, CSS, Python, databases (SQL), and network routing using Packet Tracer.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">How can I contact you?</button>
+                <div class="faq-answer"><p>You can use the contact form at the bottom of this page, which will open your email application.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
 
         <!-- Portfolio cards describe student projects. -->
         <section id="portfolio" class="section dark">
@@ -138,10 +166,9 @@
                     <input id="name" name="name" type="text" autocomplete="name" required>
                     <label for="email">YOUR EMAIL</label>
                     <input id="email" name="email" type="email" autocomplete="email" required>
-                    <label for="message">YOUR MESSAGE</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                    <button type="submit">SEND MESSAGE <span aria-hidden="true">↗</span></button>
-                    <p class="form-note">This form opens your email app to send the message.</p>
+                   <label for="message">YOUR MESSAGE</label>
+<textarea id="message" name="message" rows="4" maxlength="300" required></textarea>
+<p id="char-count" class="form-note" style="text-align: right; margin-top: 5px;">0 / 300 characters</p>
                 </form>
             </div>
         </section>
@@ -153,5 +180,10 @@
         <p>© 2026 Shyanne Hyacinth · Personal Website</p>
         <a href="#home">BACK TO TOP ↑</a>
     </footer>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top-btn" aria-label="Back to top">↑</button>
+
+    <script src="js/script.js" defer></script>
 </body>
 </html>

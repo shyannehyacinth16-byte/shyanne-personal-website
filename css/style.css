@@ -643,3 +643,109 @@ form button {
         animation-duration: 0.01ms !important;
     }
 }
+/* =========================================================
+   JavaScript Enhancement Styles
+   ========================================================= */
+
+/* 1. Back to Top Button */
+#back-to-top-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--panel-light);
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: var(--glow);
+    
+    /* Hide it by default */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+/* Appears when JS adds the "show" class */
+#back-to-top-btn.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+#back-to-top-btn:hover {
+    background: rgba(73, 216, 255, 0.15);
+    transform: translateY(-5px);
+}
+/* =========================================================
+   FAQ Accordion
+   ========================================================= */
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq-item {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: border-color 0.3s ease;
+}
+
+.faq-item:hover {
+    border-color: rgba(73, 216, 255, 0.4);
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    color: var(--text);
+    border: none;
+    padding: 18px 20px;
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* The plus sign on the right */
+.faq-question::after {
+    content: "+";
+    color: var(--blue);
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+/* Changes to a minus sign when open */
+.faq-item.active .faq-question::after {
+    content: "−";
+    transform: rotate(180deg);
+}
+
+/* Hides the answer by default */
+.faq-answer {
+    display: none; 
+    padding: 0 20px;
+    background: rgba(73, 216, 255, 0.03);
+}
+
+.faq-answer p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+}
+
+/* Shows the answer when JS adds the "active" class */
+.faq-item.active .faq-answer {
+    display: block; 
+}
