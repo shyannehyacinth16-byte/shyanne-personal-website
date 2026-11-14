@@ -58,3 +58,25 @@ For this redesign, I improved the layout and appearance of my personal website a
 One challenge was making the page fit smaller screens without making the text or navigation hard to use, so I stacked the main sections on mobile and adjusted the spacing and image heights. Another challenge was Git: my redesign folder was not connected to my repository, so I cloned it and copied my files in. The W3C validator also found errors, which I fixed until the page passed.
 
 I learned that a branch lets me work on changes without touching the main version of my website. Small commits with clear messages show exactly what changed and why. A Pull Request let me review my work, check there were no conflicts, and merge it into main in a controlled way. I now feel more confident using Git and GitHub, and I know a website needs testing on phones and tablets, not just on desktop.
+
+## JavaScript Feature Screenshots
+
+### 1. Live Digital Clock & Welcome Message
+![Clock and Welcome](Screenshots/clock.png)
+
+### 2. Interactive FAQ Accordion
+![FAQ Accordion](Screenshots/faq.png)
+
+### 3. Contact Form Character Counter
+![Character Counter](Screenshots/counter.png)
+
+### 4. Back-to-Top Button
+![Back to Top](Screenshots/back-to-top.png)
+
+### 5. GitHub Pull Request Workflow
+![Pull Request](Screenshots/pull-request.png)
+
+### 6. Responsive Design (Previous Assignment)
+![Desktop View](Screenshots/Desktop.png)
+![Tablet View](Screenshots/Tablet.png)
+![Phone View](Screenshots/phone.png)

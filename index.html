@@ -161,15 +161,24 @@
                     <p class="contact-intro">Thanks for visiting my website. Use the form to write a message.</p>
                     <p class="contact-info">SHYANNE HYACINTH<br>CST2 · TAMCC</p>
                 </div>
-                <<form action="mailto:shyanneh7202@tamcc.edu.gd" method="post" enctype="text/plain">
+                <form action="mailto:shyanneh7202@tamcc.edu.gd" method="post" enctype="text/plain">
                     <label for="name">YOUR NAME</label>
                     <input id="name" name="name" type="text" autocomplete="name" required>
+
                     <label for="email">YOUR EMAIL</label>
                     <input id="email" name="email" type="email" autocomplete="email" required>
+
                    <label for="message">YOUR MESSAGE</label>
 <textarea id="message" name="message" rows="4" maxlength="300" required></textarea>
-<p id="char-count" class="form-note" style="text-align: right; margin-top: 5px;">0 / 300 characters</p>
-                </form>
+
+<!-- Character Counter -->
+  <p id="char-count" class="form-note" style="text-align: right; margin-top: 5px; margin-bottom: 15px;">0 / 300 characters</p>
+    
+    <!-- The Send Button -->
+    <button type="submit" class="button" style="border: none; cursor: pointer;">SEND MESSAGE <span aria-hidden="true">↗</span></button>
+    
+    <p class="form-note" style="margin-top: 15px;">This form opens your email app to send the message.</p>
+</form>
             </div>
         </section>
     </main>
