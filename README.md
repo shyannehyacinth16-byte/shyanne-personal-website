@@ -75,3 +75,25 @@ For this assignment, I added five JavaScript features to improve the interactivi
 One challenge I encountered was debugging why my FAQ accordion wasn't opening. I learned how to use the browser's Developer Tools to inspect the elements and check for console errors. I discovered that duplicate HTML tags at the bottom of my page were preventing the JavaScript from running correctly. Fixing this taught me the importance of clean HTML structure. 
 
 Using Git and GitHub made the process safer. Creating a separate branch (`feature/javascript-enhancements`) meant I could experiment without breaking my live site. Committing and merging via a Pull Request helped me review my changes before finalizing them.
+=======
+## JavaScript Feature Screenshots
+
+### 1. Live Digital Clock & Welcome Message
+![Clock and Welcome](Screenshots/clock.png)
+
+### 2. Interactive FAQ Accordion
+![FAQ Accordion](Screenshots/faq.png)
+
+### 3. Contact Form Character Counter
+![Character Counter](Screenshots/counter.png)
+
+### 4. Back-to-Top Button
+![Back to Top](Screenshots/back-to-top.png)
+
+### 5. GitHub Pull Request Workflow
+![Pull Request](Screenshots/pull-request.png)
+
+### 6. Responsive Design (Previous Assignment)
+![Desktop View](Screenshots/Desktop.png)
+![Tablet View](Screenshots/Tablet.png)
+![Phone View](Screenshots/phone.png)

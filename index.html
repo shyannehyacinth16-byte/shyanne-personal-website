@@ -27,8 +27,8 @@
         <!-- Intro section introduces the website owner. -->
         <section id="home" class="hero">
             <div class="hero-copy">
-                <p class="hero-note" style="margin-bottom: 20px;">
-    It is currently <span id="live-clock" style="color: var(--blue); font-family: 'DM Mono', monospace; font-weight: bold;">00:00:00</span>
+               <p class="hero-note" style="margin-bottom: 20px;">
+    <span id="welcome-msg" style="color: var(--purple); font-weight: 800;">Good morning</span>! It is currently <span id="live-clock" style="color: var(--blue); font-family: 'DM Mono', monospace; font-weight: bold;">00:00:00</span>
 </p>
                 <p class="eyebrow"><span class="status-dot"></span> COMPUTER SYSTEMS TECHNOLOGY · CST2</p>
                 <h1>SHYANNE<br><span>HYACINTH</span></h1>
@@ -161,15 +161,24 @@
                     <p class="contact-intro">Thanks for visiting my website. Use the form to write a message.</p>
                     <p class="contact-info">SHYANNE HYACINTH<br>CST2 · TAMCC</p>
                 </div>
-                <form action="mailto:shyannehyacinth16@tamcc.edu.gd" method="post" enctype="text/plain">
+                <form action="mailto:shyanneh7202@tamcc.edu.gd" method="post" enctype="text/plain">
                     <label for="name">YOUR NAME</label>
                     <input id="name" name="name" type="text" autocomplete="name" required>
+
                     <label for="email">YOUR EMAIL</label>
                     <input id="email" name="email" type="email" autocomplete="email" required>
+
                    <label for="message">YOUR MESSAGE</label>
 <textarea id="message" name="message" rows="4" maxlength="300" required></textarea>
-<p id="char-count" class="form-note" style="text-align: right; margin-top: 5px;">0 / 300 characters</p>
-                </form>
+
+<!-- Character Counter -->
+  <p id="char-count" class="form-note" style="text-align: right; margin-top: 5px; margin-bottom: 15px;">0 / 300 characters</p>
+    
+    <!-- The Send Button -->
+    <button type="submit" class="button" style="border: none; cursor: pointer;">SEND MESSAGE <span aria-hidden="true">↗</span></button>
+    
+    <p class="form-note" style="margin-top: 15px;">This form opens your email app to send the message.</p>
+</form>
             </div>
         </section>
     </main>
